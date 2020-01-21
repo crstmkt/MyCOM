@@ -1,0 +1,337 @@
+/*
+// MyCOM Stylesheet
+// Name: Motion
+// Version 0.9.15.03
+// Coded by: Nemesis
+// NO CHANGES WITHOUT MY PERMISSION
+// Copyright © 2009 | Ion-Light | Nemesis
+// Last changes: 15.06.2009
+// Graphics by: www.creative-graphics.de | Made by: Terry
+*/
+body{
+background-color: #0070B0;
+font-family: Segoe UI, Tahoma, Verdana, Arial, Helvetica, sans-serif;
+font-size: 11px;
+}
+
+/***GENERAL-LAYOUT***/
+#header{
+height: 180px;
+width: 1000px;
+background-image: url(img/header.jpg);
+background-repeat: no-repeat;
+}
+
+#topnavileftcorner{
+height: 51px;
+width: 80px;
+background-image: url(img/topnavileftcorner.jpg);
+background-repeat: no-repeat;
+}
+
+#topnavileftborder{
+height: 51px;
+width: 16px;
+margin-left: 80px;
+margin-top: -51px;
+background-image: url(img/topnavileftborder.jpg);
+background-repeat: no-repeat;
+}
+
+#topnavitoolbar{
+height: 51px;
+width: 805px;
+margin-left: 96px;
+margin-top: -51px;
+background-image: url(img/topnavitoolbar.jpg);
+background-repeat: no-repeat;
+line-height: 50px;
+}
+
+#topnavirightborder{
+height: 51px;
+width: 19px;
+margin-left: 901px;
+margin-top: -51px;
+background-image: url(img/topnavirightborder.jpg);
+background-repeat: no-repeat;
+}
+
+#topnavirightcorner{
+height: 51px;
+width: 80px;
+margin-left: 920px;
+margin-top: -51px;
+background-image: url(img/topnavirightcorner.jpg);
+background-repeat: no-repeat;
+}
+
+#advert-lefttop{
+height: 109px;
+width: 395px;
+margin-left: 0px;
+background-image: url(img/advert-lefttop.jpg);
+background-repeat: no-repeat;
+}
+
+#advert-leftbottom{
+height: 45px;
+width: 395px;
+background-image: url(img/advert-leftbottom.jpg);
+background-repeat: no-repeat;
+}
+
+#advert-righttop{
+height: 49px;
+width: 468px;
+margin-left: 395px;
+margin-top: -154px;
+background-image: url(img/advert-righttop.jpg);
+background-repeat: no-repeat;
+}
+
+#advert{
+height: 60px;
+width: 468px;
+margin-left: 395px;
+background-repeat: no-repeat;
+}
+
+#advert-rightbottom{
+height: 49px;
+width: 468px;
+margin-left: 395px;
+margin-top: 0px;
+background-image: url(img/advert-rightbottom.jpg);
+background-repeat: no-repeat;
+}
+
+#advert-right{
+height: 154px;
+width: 137px;
+margin-left: 863px;
+margin-top: -158px;
+background-image: url(img/advert-right.jpg);
+background-repeat: no-repeat;
+}
+
+#wrapper {
+position: relative;
+margin: 0px;
+width: 1120px;
+min-height: 100%;
+height: auto !important;
+height: 100%;
+background: url(img/body-background.jpg) repeat-y;
+}
+
+#usernavi{
+margin: 0 0 0 81px; /* Auﬂenabstand oben - rechts - unten - links */
+float: left;
+}
+
+#mainarea{
+margin: 0 290px;
+padding: 9px;
+}
+
+#boxcontent{
+width: 200px;
+background: #DEDEDE;
+border-left: 1px solid #FFF;
+border-right: 1px solid #FFF;
+border-bottom: 1 px solid #FFF;
+min-height: 115px;
+margin-left: -1px;
+}
+
+#loginbar{
+width: 200px;
+height: 38px;
+background-image: url(img/loginbar.jpg);
+background-repeat: no-repeat;
+}
+
+#loginuser{ 
+height: 26px;
+background-image: url(img/login_user.jpg);
+background-repeat: no-repeat;
+}
+
+#loginpass{
+height: 26px;
+background-image: url(img/login_pass.jpg);
+background-repeat: no-repeat;
+}
+
+#footerl{
+margin-top: 2px;
+width: 19px;
+height: 31px;
+background-image: url(img/footerl.jpg);
+}
+
+#footerc{
+width: 597px;
+height: 31px;
+background-image: url(img/footerc.jpg);
+margin-top: -31px;
+margin-left: 19px;
+line-height: 30px;
+}
+
+#ctopbarl{
+width: 24px;
+height: 30px;
+background-image: url(img/ctopbarl.jpg);
+background-repeat: no-repeat;
+}
+
+#ctopbarc{
+width: 585px;
+height: 30px;
+margin-top: -30px;
+margin-left: 24px;
+background-image: url(img/ctopbarc.jpg);
+line-height: 30px;
+}
+
+#ctopbarr{
+width: 19px;
+height: 30px;
+margin-top: -30px;
+margin-left: 597px;
+background-image: url(img/ctopbarr.jpg);
+background-repeat: no-repeat;
+}
+
+#ftopbarl{
+width: 24px;
+height: 30px;
+margin-top: 2px;
+background-image: url(img/ftopbarl.jpg);
+background-repeat: no-repeat;
+}
+
+#ftopbarc{
+width: 585px;
+height: 30px;
+margin-top: -30px;
+margin-left: 24px;
+background-image: url(img/ftopbarc.jpg);
+background-repeat: repeat;
+line-height: 30px;
+}
+
+#ftopbarr{
+width: 19px;
+height: 30px;
+margin-top: -30px;
+margin-left: 597px;
+background-image: url(img/ftopbarr.jpg);
+background-repeat: no-repeat;
+}
+
+#boxcontentbig{
+width: 605px;
+padding: 5px;
+background: #DEDEDE;
+border-left: 1px solid #FFF;
+border-right: 1px solid #FFF;
+border-bottom: 1 px solid #FFF;
+min-height: 115px;
+height: auto;
+margin-left: 0px;
+}
+
+/* clearfix zum Aufheben der Floatumgebung */
+
+.clearfix:after {
+content: ".";
+display: block;
+height: 0;
+font-size: 0;
+clear: both;
+visibility: hidden;
+}
+
+.clearfix {display: inline-block;}
+
+/* Hides from IE-mac \*/
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}
+/* End hide from IE-mac */
+
+
+/***CLASSES***/
+.login{
+width: 100px;
+height: 20px;
+text-align: left;
+border left: none;
+border-bottom: none;
+border-right: none;
+border-top: none;
+margin-left: 75px;
+}
+
+input.loginbt{
+background: transparent url(img/loginbt.jpg) no-repeat center top;
+width: 66px;
+height: 26px;
+margin-left: 20px;
+margin-top: 15px;
+border-width: 0px; 
+}
+
+img.registerbt{
+background: transparent url(img/registerbt.jpg) no-repeat center top;
+width: 66px;
+height: 26px;
+margin-left: 106px;
+margin-top: -26px;
+border-width: 0px; 
+}
+
+img.logoutbt{
+background: transparent url(img/logout.png) no-repeat center top;
+width: 66px;
+height: 26px;
+margin-left: 106px;
+margin-top: 10px;
+border-width: 0px; 
+}
+
+img{
+border-width: 0px;
+}
+
+ul.ver{
+list-style-type: none;
+}
+
+/***H1-H5***/
+
+* {margin: 0; padding: 0;}
+
+h2{
+font-size: 15px;
+color: #FFF;
+}
+
+/***LINKS***/
+a{
+text-decoration: none;
+}
+
+a.a1{
+font-size: 15px;
+color: #FFFFFF;
+text-decoration: none;
+}
+
+a.a1:hover{
+font-size: 15px;
+color: #55FF55;
+text-decoration: none;
+}

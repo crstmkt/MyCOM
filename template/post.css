@@ -1,0 +1,31 @@
+/* CSS Document */
+/*POST Template*/
+
+#postbar{
+width: 605px;
+padding: 5px;
+background: #DEDEDE;
+border-left: 1px solid #FFF;
+border-right: 1px solid #FFF;
+border-bottom: 1 px solid #FFF;
+height: 20px;
+margin-left: 0px;
+}
+
+#postwrapper{
+width: 606px;
+/*height: 5px; */
+padding: 5px;
+background: #FFCC00;
+}
+
+#postbox{
+width: 605px;
+padding: 5px;
+background: #FFF;
+border-right: 1px solid #FFCC00;
+border-bottom: 1px solid #FFCC00;
+height: auto;
+min-height: 150px;
+margin-left: 0px;
+}

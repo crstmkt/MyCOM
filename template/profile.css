@@ -1,0 +1,31 @@
+/*
+// MyCOM Stylesheet
+// Name: Motion
+// Version 0.9.15.03
+// Coded by: Nemesis
+// NO CHANGES WITHOUT MY PERMISSION
+// Copyright © 2009 | Ion-Light | Nemesis
+// Last changes: 15.06.2009
+// Graphics by: www.creative-graphics.de | Made by: Terry
+*/
+
+#avatar{
+width: 210px;
+height: 230px;
+}
+
+#rightroster{
+width: 395px;
+height: 230px;
+margin-left: 210px;
+margin-top: -230px;
+padding: 5px;
+vertical-align: top;
+}
+
+#profilebig{
+width: 605px;
+height: auto;
+padding: 5px;
+vertical-align: top;
+}
